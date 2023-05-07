@@ -8,11 +8,11 @@
 Вот список проектов, которые включены сейчас в этот репозиторий:
 
 ### Анимация при скролле
-![Анимация при скролле]('./images/scroll-animation.gif')
+![Анимация при скролле]('https://github.com/GuVictory/mini-projects/blob/main/images/scroll-animation.gif')
 ### Ховерборд
-![Ховерборд]('./images/hoverboard.gif')
+![Ховерборд]('https://github.com/GuVictory/mini-projects/blob/main/images/hoverboard.gif')
 ### Drag-n-Drop
-![Drag-n-Drop]('./images/drag-n-drop.gif')
+![Drag-n-Drop]('https://github.com/GuVictory/mini-projects/blob/main/images/drag-n-drop.gif')
 
 ## Использование
 Каждый проект находится в отдельной папке внутри репозитория. Внутри каждой папки находятся файлы с исходным кодом проекта.
