@@ -9,11 +9,11 @@ markupArea.addEventListener('keyup', () => {
 });
 
 const onMouseMove = (event) => {
-    const { width } = body.getBoundingClientRect();
+    const { left, width } = body.getBoundingClientRect();
     const { clientX } = event;
 
-    markupArea.style.width = `${clientX - 4}px`;
-    contentHere.style.width = `${width - clientX - 4}px`;
+    markupArea.style.width = `${clientX - left}px`;
+    contentHere.style.width = `${width - clientX}px`;
 };
 
 const onMouseUp = (event) => {
