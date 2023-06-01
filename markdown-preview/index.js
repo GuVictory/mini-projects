@@ -1,19 +1,19 @@
 const container = document.getElementById('container');
 const contentHere = document.getElementById('content');
-const markupArea = document.getElementById('markup');
+const sourceArea = document.getElementById('source');
 const devider = document.getElementById('devider');
 
-markupArea.addEventListener('keyup', () => {
-    const newText = marked.parse(markupArea.value);
+sourceArea.addEventListener('keyup', () => {
+    const newText = marked.parse(sourceArea.value);
     contentHere.innerHTML = newText;
 });
 
 const onMouseMove = (event) => {
-    const { left, width } = body.getBoundingClientRect();
+    const { left, width } = container.getBoundingClientRect();
     const { clientX } = event;
 
-    markupArea.style.width = `${clientX - left}px`;
-    contentHere.style.width = `${width - clientX}px`;
+    sourceArea.style.width = `${clientX - left}px`;
+    contentHere.style.width = `${left + width - clientX}px`;
 };
 
 const onMouseUp = (event) => {
