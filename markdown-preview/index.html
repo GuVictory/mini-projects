@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./index.css" />
+        <title>Markdown preview</title>
+    </head>
+    <body id="body">
+        <h1>Markdown preview</h1>
+        <main class="container" id="container">
+            <textarea
+                name=""
+                id="markup"
+                class="source"
+                cols="50"
+                rows="30"
+            ></textarea>
+
+            <div id="devider" class="devider"></div>
+
+            <div id="content" class="preview"></div>
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
